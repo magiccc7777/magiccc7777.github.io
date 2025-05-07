@@ -1,0 +1,87 @@
+.learn{
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(500px,0     );
+width: 300px;
+
+
+
+
+
+
+}
+body{
+    background-color: black;
+    background-image: url(sky.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.index{
+    transform: translate(1200px,0     );
+    background: rgba(255, 255, 255, 0.5);
+    width:300px ;
+
+
+
+
+}
+.links{
+
+    transform: translate(500px,0     );
+    background: rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+.class{
+    background: rgba(0, 0, 0, 0.5);
+    width: 800px;
+color: rgb(9, 9, 9);
+transform: translate(300px,0     );
+
+
+}
+.plane{
+    background: rgba(0, 0, 0, 0.5);
+    width: 800px;
+color: rgb(9, 9, 9);
+transform: translate(300px,0     );
+
+
+}
+.WHAT{
+    background: rgba(0, 0, 0, 0.5);
+   
+
+}
+.english{
+    background: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    transform: translate(300px,0     );
+    color: brown;
+
+
+
+
+}
+.video{
+    transform: translate(400px,0     );
+
+
+
+}
+.hope{
+    background: rgba(0, 0, 0, 0.5);
+    transform: translate(500px,0     );
+width:400px ;
+}
+.steps{
+color: brown;
+background: rgba(0, 0, 0, 0.5);
+transform: translate(500px,0     );
+width:400px ;
+}
+.second{
+    color: rgb(42, 165, 58);
+    background: rgba(0, 0, 0, 0.5);
+    transform: translate(450px,0     );
+    width:400px ;
+}

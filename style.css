@@ -1,0 +1,165 @@
+#magicccc {
+   color: rgb(213, 218, 210);
+   background-color: blue;
+   width: 2000px;
+   height: 2000px;
+   background-image: url(Magic.PNG);
+}
+
+.gamal {
+   color: rgb(220, 220, 220);
+   background-color: red;
+   width: 200px;
+   height: 40px;
+   transform: translate(650px, 0px);
+   animation: mymove 6s 1;
+}
+
+.gamal:hover {
+
+}
+
+.earnmoney {
+   color: rgb(245, 246, 245);
+   background-color: rgb(2, 247, 59);
+   width: 200px;
+   transform: translate(650px, 0px);
+   animation: mymove 6s 1;
+}
+
+.taller {
+   background-color: rgb(38, 197, 144);
+   width: 2000px;
+}
+
+.smaller {
+   color: white;
+}
+
+body {
+   background-image: url(solid.PNG);
+   color: white;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+.white {
+   color: white;
+   font-size: medium;
+}
+
+/* Media Queries */
+
+/* When the width is less than or equal to 768px (tablet or small screens) */
+@media (max-width: 768px) {
+   .whitee {
+       width: 100%;
+       transform: translate(0, 0);
+   }
+
+   .gamal {
+       width: 100%;
+       transform: translate(0, 0);
+   }
+
+   .yellow {
+       width: 100%;
+       transform: translate(0, 0);
+   }
+
+   body {
+       font-size: 16px;
+   }
+}
+
+/* When the width is less than or equal to 480px (very small screens like phones) */
+@media (max-width: 480px) {
+   .whitee {
+       width: 100%;
+       transform: translate(0, 0);
+       font-size: 14px;
+   }
+
+   .gamal {
+       width: 100%;
+       transform: translate(0, 0);
+   }
+
+   body {
+       font-size: 14px;
+   }
+}
+
+.whitee {
+   color: rgb(6, 6, 6);
+   background-color: rgb(252, 249, 249);
+   width: 300px;
+   height: 40px;
+   transform: translate(600px, 0px);
+   animation: mymovey 4s 1;
+}
+
+.whitee:hover {
+   background-color: #ccc;
+}
+
+@keyframes mymovey {
+   0% {
+       transform: translate(600px, 0px);
+   }
+   100% {
+       transform: translate(600px, 100px);
+   }
+}
+
+@keyframes mymove {
+   0% {
+       transform: translate(600px, 0);
+   }
+   20% {
+       transform: translate(600px, 0);
+   }
+   40% {
+       transform: translate(0, 0);
+   }
+   60% {
+       transform: translate(0, 0);
+   }
+   100% {
+       transform: translate(600px, 0);
+   }
+}
+
+.yellow {
+   transform: translate(175px, 0);
+   background-color: green;
+   width: 1200px;
+}
+.last{
+   color: black;
+background-color: white;
+width: 250px; ;
+height: 150px; ;
+
+
+}
+.another{
+   background: rgba(255, 255, 255, 0.5);
+   width: 150px;
+
+}
+
+ 
+
+
+
+
+.another :hover{
+width:100% ;
+height:100% ;
+
+
+
+}

@@ -1,0 +1,55 @@
+.learn{
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(500px,0     );
+width: 300px;
+}
+.index{
+    transform: translate(1200px,0     );
+    background: rgba(255, 255, 255, 0.5);
+    width:300px ;
+
+
+
+
+}
+body{
+background-image: url(sky.PNG);
+background-image: url(sky.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.place{
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(400px,0     );
+width: 600px;
+
+}
+.where{
+    background: rgba(225, 225, 225, 0.5);
+    transform: translate(575px,0     );
+width: 125px;
+
+}
+.every{
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(350px,0     );
+width: 725px;
+
+
+}
+.links{
+    background: rgba(225, 225, 225, 0.5);
+    transform: translate(500px,0     );
+width: 300px;
+
+
+}
+#fly{
+    background: rgba(0, 0, 0, 0.5);
+
+
+
+}
