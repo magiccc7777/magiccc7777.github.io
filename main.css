@@ -1,0 +1,17 @@
+.choose1{
+display: inline-block;
+background-color: black;
+padding: 10px 20px;
+text-decoration: none ;
+border-radius:  8px; 
+margin: 5px;
+}
+.choose1 :hover{
+background-color: gray;
+color: gold;
+
+
+
+
+
+}

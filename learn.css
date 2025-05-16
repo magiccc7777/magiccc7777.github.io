@@ -1,0 +1,18 @@
+.inline {
+  display: flex;
+  gap: 40px; /* مسافة بين اللينكات */
+transform: translate(300px,15px);
+}
+.inline :hover{
+color:red;
+background-color: blue;
+
+
+}
+#back{
+background-color: black;
+height: 60px;
+
+
+}
+

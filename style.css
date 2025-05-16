@@ -1,0 +1,217 @@
+#magicccc {
+  color: rgb(213, 218, 210);
+  background-color: blue;
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(Magic.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.gamal {
+  color: rgb(220, 220, 220);
+  background-color: red;
+  width: 200px;
+  height: 40px;
+  transform: translate(650px, 0px);
+  animation: mymove 6s 1;
+}
+
+.earnmoney {
+  color: rgb(245, 246, 245);
+  background-color: rgb(2, 247, 59);
+  width: 200px;
+  transform: translate(650px, 0px);
+  animation: mymove 6s 1;
+}
+
+.taller {
+  background-color: rgb(38, 197, 144);
+  width: 2000px;
+}
+
+.smaller {
+  color: white;
+}
+
+body {
+  background-image: url(solid.PNG);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.white {
+  color: white;
+  font-size: medium;
+}
+
+.whitee {
+  color: rgb(6, 6, 6);
+  background-color: rgb(252, 249, 249);
+  width: 300px;
+  height: 40px;
+  transform: translate(600px, 0px);
+  animation: mymovey 4s 1;
+}
+
+.whitee:hover {
+  background-color: #ccc;
+}
+
+.yellow {
+  transform: translate(175px, 0);
+  background-color: green;
+  width: 1200px;
+}
+
+.last {
+  color: black;
+  background-color: white;
+  width: 250px;
+  height: 150px;
+}
+
+.another {
+  background: rgba(255, 255, 255, 0.5);
+  width: 150px;
+  transition: 0.3s;
+}
+
+.another:hover {
+  background-color: gray;
+  color: gold;
+}
+
+/* الحركات */
+
+@keyframes mymovey {
+  0% {
+    transform: translate(600px, 0px);
+  }
+  100% {
+    transform: translate(600px, 100px);
+  }
+}
+
+@keyframes mymove {
+  0% {
+    transform: translate(600px, 0);
+  }
+  20% {
+    transform: translate(600px, 0);
+  }
+  40% {
+    transform: translate(0, 0);
+  }
+  60% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(600px, 0);
+  }
+}
+
+.learn1 {
+  transform: translate(450px, -5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 115px;
+  height: 20px;
+}
+
+.learn1:hover {
+  background-color: gray;
+  color: gold;
+}
+
+.learn2 {
+  transform: translate(450px, -5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 120px;
+  height: 20px;
+}
+
+.learn2:hover {
+  background-color: gray;
+  color: gold;
+}
+
+.learn3 {
+  transform: translate(450px, -5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 280px;
+  height: 20px;
+}
+
+.learn3:hover {
+  background-color: gray;
+  color: gold;
+}
+
+/* ✅ Media Queries لموبايل وتابلت */
+
+@media (max-width: 768px) {
+  #magicccc {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll; /* لتجنب مشاكل الفكسد في الموبايل */
+  }
+
+  .gamal,
+  .earnmoney,
+  .whitee,
+  .yellow,
+  .learn1,
+  .learn2,
+  .learn3 {
+    transform: translate(0, 0);
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+
+  .yellow {
+    width: 90%;
+  }
+
+  .last,
+  .another {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+#another{
+
+  
+}

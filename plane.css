@@ -1,0 +1,274 @@
+.plane {
+    background: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    color: rgb(9, 9, 9);
+    transform: translate(300px, 0);
+  }
+  
+  body {
+    background-color: black;
+    background-image: url(sky.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .english {
+    background: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    transform: translate(300px, 0);
+    color: brown;
+  }
+  
+  
+    .links {
+        transform: translate(500px, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 300px;
+       
+            display: inline-block;
+          padding: 10px 20px;
+          background-color: black;
+          color: white;
+          text-decoration: none;
+          border-radius: 8px;
+          margin: 5px;
+          transition: 0.3s;}
+        
+        
+        .links :hover{
+    
+        
+          background-color: gray;
+          color: gold;
+          }
+  
+  
+  .WHAT {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .video {
+    transform: translate(400px, 0);
+  }
+  
+  .hope {
+    background: rgba(0, 0, 0, 0.5);
+    transform: translate(500px, 0);
+    width: 400px;
+  }
+  
+  .steps {
+    color: brown;
+    background: rgba(0, 0, 0, 0.5);
+    transform: translate(500px, 0);
+    width: 400px;
+  }
+  
+  .second {
+    color: rgb(42, 165, 58);
+    background: rgba(0, 0, 0, 0.5);
+    transform: translate(450px, 0);
+    width: 400px;
+  }
+  
+  .title {
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(500px, 0);
+    width: 300px;
+  }
+  
+  .index {
+    transform: translate(1200px, 0);
+    background: rgba(255, 255, 255, 0.5);
+    width: 300px;
+  }
+  
+  
+  
+    
+  
+  .learn1{
+ transform: translate(300px,-5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 115px;
+height: 20px;
+}
+
+
+.learn1 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+
+ 
+ .learn2{
+transform: translate(300px,-5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 120px;
+height: 20px;
+}
+
+
+.learn2 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+
+ 
+ .learn3{
+transform: translate(300px,-5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 280px;
+height: 20px;
+}
+
+
+.learn3 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+
+
+  
+ .learn4{
+transform: translate(300px,-5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+.learn4 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+.learn5{
+transform: translate(300px,-5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 80px;
+height: 20px;
+}
+
+
+.learn5 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+.privacy{
+transform: translate(-800px,-6px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 115px;
+height: 20px;
+}
+
+
+.privacy :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+.learn {
+    background: rgba(255, 0, 0, 0.5);
+    transform: translate(550px, 0);
+    width: 260px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .plane,
+  .english,
+  .hope,
+  .steps,
+  .second,
+  .title,
+  .index,
+  .learn,
+  .links,
+  .video,
+  .WHAT {
+    width: 90%;
+    transform: none;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .learn1,
+  .learn2,
+  .learn3,
+  .learn4,
+  .learn5,
+  .privacy {
+    width: 90%;
+    transform: none;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+  }
+}
