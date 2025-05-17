@@ -220,7 +220,7 @@ body {
 }
 .inline {
   display: flex;
-  gap: 150px; 
+  gap: 100px; 
 transform: translate(140px,15px);
 }
 .inline :hover{
