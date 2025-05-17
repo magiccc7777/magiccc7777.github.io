@@ -277,7 +277,7 @@ color: blue;
 transform: translate(-50px,0px);
 }
 #back :hover{
-background-color: gray;
+background-color: rgb(128, 128, 128);
   color: gold;
 
 
